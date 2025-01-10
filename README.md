@@ -91,12 +91,17 @@ Built with **Node.js**, **TypeScript**, and **Knex.js ORM**.
 
 8.  **API Routes**
     **Auth Routes**
-    POST /api/auth/signup Register new user
-    POST /api/auth/signin Login user
-    PATCH /api/user/:id Update user details
-    GET /api/user Query single user
-    GET /api/users Query many users
-    DELETE /api/user/:id Delete single user
+
+    ```bash
+        POST /api/auth/signup Register new user
+        POST /api/auth/signin Login user
+        PATCH /api/user/:id Update user details
+        GET /api/user Query single user
+        GET /api/users Query many users
+        DELETE /api/user/:id Delete single user
+
+
+    ```
 
 9.  **Running the Application**
 
